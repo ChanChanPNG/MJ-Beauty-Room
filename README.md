@@ -1,27 +1,21 @@
-# MJ Beauty Room — Sitio web (Borrador 1)
+# MJ Beauty Room — Borrador 2
 
-Sitio estático de una página, en español mexicano, preparado para GitHub y Vercel.
+Sitio web de una sola página en español (México), diseñado con minimalismo orgánico y detalles inspirados en el wabi-sabi.
 
-## Archivos
-- `index.html` — contenido y enlaces del sitio
-- `styles.css` — diseño adaptable a móvil, tableta y computadora
-- `script.js` — menú móvil y mensajes personalizados de WhatsApp
-- `assets/` — logo y fotografías proporcionados en el cuestionario de Majo
+## Publicación en GitHub y Vercel
+1. Descomprime el archivo ZIP.
+2. Sube **el contenido de la carpeta** (index.html, styles.css, script.js y assets/) a la raíz de tu repositorio de GitHub.
+3. En Vercel, importa el repositorio con **Framework Preset: Other**. No se requiere un comando de compilación.
+4. Comprueba el sitio en la dirección de vista previa antes de conectar un dominio.
 
-## Publicación
-1. Sube **todos los archivos y la carpeta `assets`** a la raíz del repositorio de GitHub.
-2. Importa ese repositorio en Vercel como **Otro** / proyecto estático (no requiere comando de compilación).
-3. Abre el dominio de Vercel para comprobar el sitio antes de conectar un dominio propio.
+## Editar el sitio
+- `index.html`: textos, servicios, horarios, dirección y enlaces.
+- `styles.css`: composición, colores, tipografía, adaptaciones móviles y texturas.
+- `script.js`: mensajes prellenados para WhatsApp y navegación móvil.
+- `assets/`: fotografías, logo y texturas discretas.
 
-## Pendiente por confirmar o actualizar
-- **Precios:** no aparecen en el documento; aún no se muestran.
-- **Dominio:** aún sin decidir.
-- **Galería:** contiene dos fotografías de uñas del documento; se pueden agregar fotos de pestañas, cejas y el local cuando estén disponibles.
-- **Logo:** `assets/mj-logo.png` contiene el PNG actualizado. Se puede sustituir por otra versión sin modificar HTML si se conserva el nombre.
-- **Horario del domingo:** no figura en el documento y no se publica.
+El botón general de WhatsApp y los siete botones de servicios apuntan al número **+52 228 108 2392**. El visitante confirma el envío del mensaje desde WhatsApp.
 
-## WhatsApp
-Todos los enlaces se generan en `script.js` con el número mexicano `522281082392`. Cada tarjeta de servicio incluye su nombre en un mensaje predefinido; el botón general usa un texto genérico. El visitante debe enviar el mensaje manualmente desde WhatsApp.
+El sitio no publica precios porque aún no fueron proporcionados. No incluye agenda automatizada ni formulario.
 
-## Créditos
-Textos de servicios y biografía basados en el cuestionario de MJ Beauty Room; los títulos y textos de introducción son copy propuesto para el diseño.
+Las fotografías de uñas y el retrato proceden del material compartido por la clienta. No se agregaron imágenes de otros salones.
