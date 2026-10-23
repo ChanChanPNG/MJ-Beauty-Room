@@ -1,21 +1,23 @@
-# MJ Beauty Room — Borrador 2
+# MJ Beauty Room — Borrador 3 (Cálido y terroso)
 
-Sitio web de una sola página en español (México), diseñado con minimalismo orgánico y detalles inspirados en el wabi-sabi.
+Sitio web en español (México), con minimalismo orgánico, composición editorial y detalles discretos de wabi-sabi.
 
-## Publicación en GitHub y Vercel
-1. Descomprime el archivo ZIP.
-2. Sube **el contenido de la carpeta** (index.html, styles.css, script.js y assets/) a la raíz de tu repositorio de GitHub.
-3. En Vercel, importa el repositorio con **Framework Preset: Other**. No se requiere un comando de compilación.
-4. Comprueba el sitio en la dirección de vista previa antes de conectar un dominio.
+## Cambios del borrador 3
+- Fondos más tranquilos: marfil cálido, arena, topo y verde oliva.
+- Hero y galería sin textura; contacto en café espresso liso.
+- Texturas de papel y yeso muy tenues exclusivamente en las secciones de servicios y «Sobre Majo».
+- Se conserva la composición editorial, las imágenes originales, el logo actualizado y los siete mensajes individuales de WhatsApp.
 
-## Editar el sitio
-- `index.html`: textos, servicios, horarios, dirección y enlaces.
-- `styles.css`: composición, colores, tipografía, adaptaciones móviles y texturas.
-- `script.js`: mensajes prellenados para WhatsApp y navegación móvil.
-- `assets/`: fotografías, logo y texturas discretas.
+## Publicación
+1. Extrae el ZIP.
+2. Sube **el contenido** de esta carpeta a la raíz del repositorio: `index.html`, `styles.css`, `script.js`, `assets/`.
+3. Vincula el repositorio en Vercel con «Framework Preset: Other». No necesita compilación.
+4. Revisa la vista previa en celular y computadora antes de publicar el dominio.
 
-El botón general de WhatsApp y los siete botones de servicios apuntan al número **+52 228 108 2392**. El visitante confirma el envío del mensaje desde WhatsApp.
+## Edición
+- `index.html`: textos, lista de servicios, teléfono, horarios, datos de contacto.
+- `styles.css`: apariencia visual, colores, texturas y adaptación móvil. Las reglas específicas de este borrador están al final, marcadas como «BORRADOR 3».
+- `script.js`: mensajes prellenados, menú móvil y año automático.
+- `assets/`: fotografías, logotipo y archivos de textura.
 
-El sitio no publica precios porque aún no fueron proporcionados. No incluye agenda automatizada ni formulario.
-
-Las fotografías de uñas y el retrato proceden del material compartido por la clienta. No se agregaron imágenes de otros salones.
+La clienta debe enviar el mensaje desde WhatsApp; el sitio no lo envía automáticamente. No se incluyen precios todavía.
