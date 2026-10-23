@@ -10,7 +10,7 @@ Sitio estático de una página, en español mexicano, preparado para GitHub y Ve
 
 ## Publicación
 1. Sube **todos los archivos y la carpeta `assets`** a la raíz del repositorio de GitHub.
-2. Importa ese repositorio en Vercel como **Other** / proyecto estático (no requiere build command).
+2. Importa ese repositorio en Vercel como **Otro** / proyecto estático (no requiere comando de compilación).
 3. Abre el dominio de Vercel para comprobar el sitio antes de conectar un dominio propio.
 
 ## Pendiente por confirmar o actualizar
