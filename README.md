@@ -21,3 +21,7 @@ Sitio web en español (México), con minimalismo orgánico, composición editori
 - `assets/`: fotografías, logotipo y archivos de textura.
 
 La clienta debe enviar el mensaje desde WhatsApp; el sitio no lo envía automáticamente. No se incluyen precios todavía.
+
+
+## Crédito de sitio web
+El pie de página incluye el logotipo proporcionado de Wayfinder Creative y el enlace https://wayfindercreative.net/ con el texto “Diseñado y alojado por Wayfinder Creative”.

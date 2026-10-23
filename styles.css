@@ -28,3 +28,20 @@ body{background:#eae0d1;color:var(--ink)}
 .contact .section-index{border-color:rgba(243,237,226,.2)}
 .whatsapp-cta{background:#eae0d1}
 @media(max-width:760px){.hero-wordmark{padding-left:7px}.hero-stamp{left:2%;bottom:65px;width:102px;height:102px}.photo-well{padding:8px}}
+
+/* Consistent line ornaments on iOS, Android and desktop (not emoji glyphs). */
+.ornament-star{display:inline-block;width:1em;height:1em;vertical-align:-.11em;color:inherit;flex-shrink:0}
+.small-glyph .ornament-star{width:35px;height:35px}
+.flourish{display:flex;justify-content:center;align-items:center;gap:55px;letter-spacing:normal}
+.flourish .ornament-star{width:18px;height:18px}
+.hero-stamp .ornament-star{width:1em;height:1em}
+
+/* Footer credit — Wayfinder Creative (Spanish, understated, mobile-friendly). */
+.footer-wayfinder{display:inline-flex;align-items:center;gap:12px;color:var(--espresso);text-decoration:none;line-height:1.35;letter-spacing:0;font-size:11px;max-width:280px}
+.footer-wayfinder img{width:100px;height:auto;max-height:50px;object-fit:contain;flex-shrink:0}
+.footer-wayfinder span{display:block}
+.footer-wayfinder strong{font-weight:600}
+.footer-wayfinder:hover strong{text-decoration:underline;text-underline-offset:3px}
+.footer-wayfinder:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
+@media(max-width:1000px){.footer{flex-wrap:wrap}.footer-wayfinder{margin-left:auto}}
+@media(max-width:760px){.footer-wayfinder{order:4;width:100%;max-width:none;margin-left:0;padding-top:17px;border-top:1px solid rgba(73,58,45,.17)}.footer-wayfinder img{width:105px}.footer-wayfinder span{font-size:11px}}
